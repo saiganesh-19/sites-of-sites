@@ -1,0 +1,72 @@
+.ind, .showing {
+    height: 380px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 10%;
+    transition: all 0.3s ease; /* Smooth transition for size and flex-direction */
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: space-evenly; /* Space items evenly */
+    gap:20px;
+}
+
+.ind {
+    margin-bottom: 20px; /* Add margin between rows */
+}
+
+button {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.ind:hover {
+    width: 310px;
+    height: 390px;
+    box-shadow: 8px 8px 7px rgba(0, 0, 0, 1.5);
+    flex-direction: column; /* Change direction to column on hover */
+}
+
+.showing {
+    text-align: center;
+    display: block;
+    height: 300px;
+}
+
+.showing:hover {
+    height: 320px;
+}
+
+body, .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: dotted;
+}
+footer.footer , footera.footer{
+    padding: 2px; /* Reduce padding */
+    font-size: 0.8rem; /* Decrease font size */
+}
+
+footer.footer a , footera.footer a{
+    font-size: 1.2rem; /* Reduce icon size */
+    margin: 0 5px; /* Adjust spacing between icons */
+}
+
+footer.footer p ,footera.footer p{
+    margin: 5px 0; /* Minimize paragraph margins */
+}
